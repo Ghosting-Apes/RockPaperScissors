@@ -6,7 +6,6 @@ int main(){
    system("clear");
    srand(time(NULL));
 
-
    string option[3] = {"rock", "paper", "scissor"};
    string multi = "";
    int p1, p2, comp;
