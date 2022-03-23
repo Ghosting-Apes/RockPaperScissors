@@ -4,6 +4,7 @@
 
 int main(){
    using namespace std;
+   system("clear");
    srand(time(NULL));
 
 
@@ -17,7 +18,7 @@ int main(){
       cout << "Please enter your choice (rock, paper, or scissor): "; cin >> choice;
       comp = rand() % 3;
       if(choice != "paper" && choice != "scissor" && choice != "rock" && choice != "scissors"){
-         cout << "You have entered an invalid choice." << endl;
+         cout << "You have entered an invalid choice.\n";
       }
       else{
       if(choice == option[comp])
@@ -50,7 +51,8 @@ int main(){
          cout << (choice2 == "rock" ? "Player 2 WINS\n" : "Player 1 WINS\n");
       }
    }
-   else
-      cout << "You have entered an invalid input.";
+   else{
+      cout << "You have entered an invalid input.\n"; 
 
+}
 }
